@@ -24,10 +24,10 @@ jobs:
     
     - name: Build executable
       run: |
-        pyinstaller --onefile --noconsole --icon=none keylogger.py
+        pyinstaller --onefile --noconsole --icon=none main.py
     
     - name: Upload artifact
       uses: actions/upload-artifact@v4
       with:
         name: windows-executable
-        path: dist/keylogger.exe
+        path: dist/main.exe
