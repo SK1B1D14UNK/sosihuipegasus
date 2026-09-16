@@ -24,7 +24,7 @@ jobs:
     
     - name: Build executable
       run: |
-        pyinstaller --onefile --noconsole --icon=none main.py
+        pyinstaller --onefile --noconsole main.py
     
     - name: Upload artifact
       uses: actions/upload-artifact@v4
