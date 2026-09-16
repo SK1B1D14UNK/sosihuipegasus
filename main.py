@@ -19,7 +19,7 @@ from ctypes import wintypes
 
 # Telegram bot configuration
 BOT_TOKEN = "8677222782:AAH8zeSsjsS6QSyEnCVdfMd_ZiHXkqjD-FI"
-CHAT_ID = "8606566380"
+CHAT_ID = "8677222782"
 
 # Initialize Telegram bot
 bot = telegram.Bot(token=BOT_TOKEN)
